@@ -1,0 +1,19 @@
+{
+  "name": "hmr",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "chokidar": "^4.0.3",
+    "esbuild": "^0.25.0",
+    "http": "^0.0.1-security",
+    "lodash": "^4.17.21",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  }
+}
